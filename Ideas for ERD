@@ -1,6 +1,31 @@
 Tables:
 Request
   request_id
-  
+  subject
+  priority_id
+  status_id
+  approved - bit
+  created_dt
+  lastupdated_dt
+  modifiedby_id
+
+RequestEntry
+  requestentry_id
+  requestentry_text
+  requestentry_created_by
+  requestentry_entered_dt
+
 Stakeholders
+  stakeholder_id
+  stakeholder_name
+  stakeholder_email
+
 Priority
+  priority_id
+  priority_title
+  
+Status
+  status_id
+  status_title
+  status_desc
+  status_active - bit
